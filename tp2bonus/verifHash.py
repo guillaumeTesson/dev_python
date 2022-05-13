@@ -15,7 +15,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="script de calcul de hash utilisant les binaires intégrés à Linux dans le répertoire /bin", conflict_handler='resolve')
 	parser.add_argument("path", help='Dossier où sont contenus les fichiers', type=dir_path)
 	parser.add_argument('-R','--recursive', dest='rec',action="store_true", required=False)
-	parser.add_argument('-j', dest='fic', help="indiquer le nom du fichier sans l'extension .json", required=False)
+	parser.add_argument('-j', dest='fic', help="indiquer le chemin/nom du fichier sans l'extension .json", required=False)
 	arg = parser.parse_args()
 
 	dictionnaire = {}
