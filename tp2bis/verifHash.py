@@ -1,6 +1,6 @@
-import argparse, os, time, json #import des bibliothèques systèmes
+import argparse, os, time, json #import des modules systèmes
 
-import checksum, checkRec #import des bibliothèques personnelles
+import checksum, checkRec #import des modules personnels
 
 def dir_path(path):
 	if os.path.exists(path):
