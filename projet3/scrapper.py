@@ -5,7 +5,6 @@
 import requests, re, json
 from bs4 import BeautifulSoup
 
-
 # Pour le script, il sera nécessaire d'utiliser 3 dictionnaires
 # dictionnaire final (niv0) pour l'injection dans le json comprenant :
 # - clé : num_port 
